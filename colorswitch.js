@@ -20,7 +20,6 @@ const colors = [
 
   function onStartClick(){
     intervalId = setInterval(()=>{
-// refs.body.style.background = colors[randomIntegerFromInterval(0, colors.length-1)]
 refs.body.style.background = randomColor();
     }, 1000);
     refs.startBtn.disabled = true;
